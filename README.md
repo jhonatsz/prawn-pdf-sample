@@ -2,8 +2,8 @@
 
   overview of prawnpdf gem with some test samples
 
-  [] git clone {this->repo}
+  [x] git clone {this->repo}
 
-  [] bundle install
+  [ ] bundle install
 
-  [] rails s
+  [ ] rails s
