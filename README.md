@@ -4,6 +4,6 @@
 
   - [x] git clone {this->repo}
 
-  - [ ] bundle install
+  - [X] bundle install
 
-  - [ ] rails s
+  - [X] rails s
