@@ -28,7 +28,7 @@ gem 'spring',        group: :development
 
 
 group :development, :test do
-  gem 'prawn'
+  gem 'prawn_rails'
 end
 
 

@@ -7,4 +7,8 @@ class ApplicationController < ActionController::Base
     render text: 'This is the main application content'
   end
 
+  def pdf
+    
+  end
+
 end
