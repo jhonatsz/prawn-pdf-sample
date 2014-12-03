@@ -1,0 +1,16 @@
+# Configuraiton for aws
+
+development:
+  access_key_id: klasekoph@gmail.com
+  secret_access_key: Kl@sek00daddy
+  bucket: klaseko-ggc-pdfs
+
+testing:
+  access_key_id: klasekoph@gmail.com
+  secret_access_key: Kl@sek00daddy
+  bucket: klaseko-ggc-pdfs
+
+production:
+  access_key_id: klasekoph@gmail.com
+  secret_access_key: Kl@sek00daddy
+  bucket: klaseko-ggc-pdfs
