@@ -14,12 +14,24 @@ class UsersController < ApplicationController
       respond_to do |format|
         format.html
         format.pdf do
-          pdf = Prawn::Document.new
-          pdf.text "Hello World"
-          send_data pdf.render, filename: "klaseko_gift_certificate_#{@user.id}.pdf",
-                                type: "application/pdf",
-                               disposition: "inline"
 
+          pdf = Prawn::Document.new
+          # First Approach
+          #pdf.text "Sample Test PDF`s"
+          #send_data pdf.render, filename: "klaseko_gift_certificate_#{@user.id}.pdf",
+          #                      type: "application/pdf",
+          #                     disposition: "inline"
+
+          # Second Another approach
+          pdf.text('GCC plss')
+          pdf.render_file('prawn.pdf')
+          pdf_file = File.open('prawn.pdf')
+          
+
+          # pdff = Pdf.new()
+          # pdff.pdff_file = pdf_file
+          # pdff.id = user.id
+          # pdff.save
         end
       end
   end
